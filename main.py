@@ -135,7 +135,7 @@ def on_message(ws, message):
                     "📝 <b>Full Message:</b>\n"
                     f"<code>{html.escape(raw_msg)}</code>\n"
                     "━━━━━━━━━━━━━━━━━━━━\n"
-                    "📡 <i>Sponsored by UN Secure OTP Platform</i>"
+                    "📡 <b>Bot Owner:- @Anurag91111 | Bot Dev:- @hiden_25</b><i>\nSecure OTP Platform</i>"
                 )
 
                 send_to_telegram(telegram_msg)
