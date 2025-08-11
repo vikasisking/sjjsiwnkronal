@@ -26,11 +26,11 @@ def send_to_telegram(text, retries=3, delay=5):
     buttons = {
         "inline_keyboard": [
             [
-                {"text": "📱Numbers", "url": CHANNEL_URL},
-                {"text": "💻 Developer", "url": DEV_URL}
+                {"text": "📱 Numbers", "url": CHANNEL_URL},
+                {"text": "👑 Owner", "url": Support}
             ],
             [
-                {"text": "🛠 Support", "url": Support}
+                {"text": "💻 Developer", "url": DEV_URL}
             ]
         ]
     }
